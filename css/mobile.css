@@ -27,6 +27,9 @@ html {
 		padding-top: 5px;	
 		padding-left: 20px;
 	}
+	.logo {
+		width: 75%;
+	}
 	.header__nav {
 		position: fixed;
 		padding-top: 10px;
@@ -169,7 +172,6 @@ html {
 	.city__item {
 		margin-top: 5px;
 	}
-/*	*/
 	.footer {
 		height: 100%;
 		display: flex;
@@ -230,6 +232,9 @@ html {
 	}
 }	
 @media (min-width: 426px) and (max-width: 768px) {
+	.logo {
+		width: 65%;
+	}
 	.header__block {
 		width: 35%;
 	}
